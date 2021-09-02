@@ -9,37 +9,37 @@ function Header() {
 
     return (
         <Container>
-            <a href="#">
+            <a href="/#">
                 <img src='/images/logo.svg' alt=''></img>
             </a>
             <Menu>
-                <a href="#">Model S</a>
-                <a href="#">Model 3</a>
-                <a href="#">Model X</a>
-                <a href="#">Model Y</a>
+                <a href="/#">Model S</a>
+                <a href="/#">Model 3</a>
+                <a href="/#">Model X</a>
+                <a href="/#">Model Y</a>
             </Menu>
             <RightMenu>
-                <a href="#">Shop</a>
-                <a href="#">Tesla Account</a>
+                <a href="/#">Shop</a>
+                <a href="/#">Tesla Account</a>
                 <CustomMenu onClick={() => setburgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>
                 <CloseWrapper>
                     <CustomClose onClick={() => setburgerStatus(false)} />
                 </CloseWrapper>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Used Inventory</a></li>
-                <li><a href="#">Trade-In</a></li>
-                <li><a href="#">Test Drive</a></li>
-                <li><a href="#">CyberTruck</a></li>
-                <li><a href="#">Roadaster</a></li>
-                <li><a href="#">Semi</a></li>
-                <li><a href="#">Charging</a></li>
-                <li><a href="#">PowerWall</a></li>
-                <li><a href="#">Commercial Energy</a></li>
-                <li><a href="#">Utilities</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Investors Relations</a></li>
+                <li><a href="/#">Existing Inventory</a></li>
+                <li><a href="/#">Used Inventory</a></li>
+                <li><a href="/#">Trade-In</a></li>
+                <li><a href="/#">Test Drive</a></li>
+                <li><a href="/#">CyberTruck</a></li>
+                <li><a href="/#">Roadaster</a></li>
+                <li><a href="/#">Semi</a></li>
+                <li><a href="/#">Charging</a></li>
+                <li><a href="/#">PowerWall</a></li>
+                <li><a href="/#">Commercial Energy</a></li>
+                <li><a href="/#">Utilities</a></li>
+                <li><a href="/#">Support</a></li>
+                <li><a href="/#">Investors Relations</a></li>
             </BurgerNav>
         </Container>
     )
