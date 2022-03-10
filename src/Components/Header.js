@@ -17,10 +17,12 @@ function Header() {
                 <a href="/#">Model 3</a>
                 <a href="/#">Model X</a>
                 <a href="/#">Model Y</a>
+                <a href="/#">Solar Panels</a>
+                <a href="/#">Solar Roof</a>
             </Menu>
             <RightMenu>
                 <a href="/#">Shop</a>
-                <a href="/#">Tesla Account</a>
+                <a href="/#">Account</a>
                 <CustomMenu onClick={() => setburgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>
@@ -69,8 +71,16 @@ const Menu = styled.div`
     a{
         font-weight: 600;
         text-transform: uppercase;
-        padding: 0 10px;
+        font-size: 15px;
+        padding: 8px 12px;
+        border-radius: 14px;
         flex-wrap: nowrap;
+        margin: 0 4px;
+        transition: color .33s ease,background-color .33s ease;
+
+    }
+    a:hover{
+        background-color: hsla(0,0%,0%,.05);
     }
 
     @media (max-width: 768px){
